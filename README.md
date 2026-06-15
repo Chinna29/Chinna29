@@ -23,7 +23,7 @@
 name: K Prasanna Venkatesh
 location: Chennai, Tamil Nadu, India
 role: Senior Test Engineer @ itTrident
-experience: 6+ years in QA Automation
+experience: 7+ years in QA Automation
 
 certifications:
   - ISTQB (International Software Testing Qualifications Board)
