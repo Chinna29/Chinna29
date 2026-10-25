@@ -1,7 +1,10 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:6C63FF&height=220&section=header&text=Prasanna%20Venkatesh&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Senior%20QA%20Automation%20Engineer%20%7C%20Framework%20Architect&descSize=16&descAlignY=55&descColor=C9D1D9" width="100%" />
+<!-- Rain-reveal hero: portrait drawn in falling light streaks + metallic title.
+     Pure SVG, animates on every page load. Regenerate (one-time, local):
+       python scripts/prep_photo.py source-photo.png && python scripts/make_rain_portrait_svg.py
+     Change the text with TITLE_SMALL / TITLE_BIG env vars. -->
+<img src="./rain-portrait.svg" width="100%" alt="Prasanna Venkatesh — Senior QA Automation Engineer" />
 
 <!-- Animated Typing SVG -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Building+Scalable+Test+Automation+Frameworks;6%2B+Years+in+QA+%26+Test+Engineering;Selenium+%7C+Playwright+%7C+WDIO+%7C+Cucumber;CI%2FCD+Pipeline+Architect;AI-Driven+Test+Optimization+Enthusiast;ISTQB+Certified+%7C+PSM+I" alt="Typing SVG" /></a>

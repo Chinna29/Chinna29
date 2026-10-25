@@ -66,3 +66,11 @@ canvas[sy0 - y0:sy1 - y0, sx0 - x0:sx1 - x0] = out[sy0:sy1, sx0:sx1].astype(np.u
 
 Image.fromarray(canvas, mode="L").save(OUT)
 print("wrote", OUT, canvas.shape)
+
+# also save the subject mask with the same crop (used by make_rain_portrait_svg.py
+# to know where the person is, since the prepped image has a white background)
+MASK_OUT = os.path.join(os.path.dirname(OUT), "source-mask.png")
+mcanvas = np.zeros((side, side), np.uint8)
+mcanvas[sy0 - y0:sy1 - y0, sx0 - x0:sx1 - x0] = (mask[sy0:sy1, sx0:sx1] * 255).astype(np.uint8)
+Image.fromarray(mcanvas, mode="L").save(MASK_OUT)
+print("wrote", MASK_OUT)
