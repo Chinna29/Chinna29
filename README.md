@@ -90,8 +90,27 @@ portfolio: https://www.prasannav.space
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Chinna29&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9&ring_color=6C63FF" width="49%" alt="GitHub Stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Chinna29&theme=tokyonight&hide_border=true&background=0d1117&stroke=6C63FF&ring=6C63FF&fire=FF6347&currStreakLabel=6C63FF&sideLabels=C9D1D9&dates=8B949E" width="49%" alt="Streak Stats" />
+<!-- Self-hosted animated contribution graph: real data, boxes pop in cell by cell.
+     Regenerated daily by .github/workflows/update-profile-art.yml -->
+<h3><code>chinna@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Prasanna's GitHub contribution graph — auto-refreshed daily" />
+
+<br>
+<br>
+
+<!-- ASCII portrait (left) + streak/numbers card (right). Both SVGs are 840x880,
+     so equal widths give equal heights.
+     portrait (one-time, local): python scripts/prep_photo.py source-photo.png && python scripts/make_ascii_svg.py
+     stats (daily workflow):     python scripts/render_stats_svg.py -->
+<h3><code>chinna@github ~ $ whoami</code></h3>
+
+<table>
+<tr>
+<td valign="top"><img src="./chinna-ascii.svg" width="420" alt="Prasanna Venkatesh — ASCII portrait" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="Prasanna's GitHub streak and contribution stats — auto-refreshed daily" /></td>
+</tr>
+</table>
 
 <br/><br/>
 
